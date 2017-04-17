@@ -1,0 +1,77 @@
+.ad{
+    height: 800px;
+    .content-page{
+        margin-bottom: 60px;
+        .page-header{
+            width: 100%;
+            line-height: 1;
+            font-size: 40px;
+            font-weight: 400;
+            border-bottom: 1px solid #eee;
+        }
+        .page-header-a{
+            width: 100%;
+            line-height: 1;
+            font-size: 30px;
+            font-weight: 300;
+        }
+        .page-header-b{
+            width: 100%;
+            line-height: 1;
+            font-size: 30px;
+            font-weight: 300;
+        }
+        .stepsDetail{
+            text-indent: 2em;
+        }
+        code{
+            margin-left: 2em;
+        }
+    }
+}
+.as{
+    height: 600px;
+    .nav{
+        height: 100%;
+        padding-top: 20px;
+        li{
+            padding: 3px 12px;
+            color: #767676;
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: 500;
+            opacity: 0.9;
+        }
+        li.active{
+            border-left: 2px solid #563d7c;
+            color: #563d7c;
+            font-weight: 600;
+            opacity: 1;
+        }
+    }
+    .content-fix{
+        position: fixed;
+        top: 66px;
+        transition: all 1s;
+    }
+}
+
+@media (max-width: 768px){
+    .as .content-fix{
+        right:0;
+        height: auto;
+        ul{
+            background-color: rgba(0,0,0,.50);
+            width: 167px;
+            li{
+                color: white;
+                opacity: 0.9;
+            }
+            li.active{
+                background: rgba(0,0,0,0.55);
+                color: white;
+                opacity: 1;
+            }
+        }
+    }
+}

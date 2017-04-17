@@ -1,0 +1,86 @@
+.form-horizontal{
+  .control-label{
+    padding-top: 8px;
+  }
+  .form-control{
+    border-radius: 0;
+    width: 100%;
+  }
+}
+//基本页面排版
+.m-panel{
+  position: relative;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px 17px;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #E6E9ED;
+  -webkit-column-break-inside: avoid;
+  -moz-column-break-inside: avoid;
+  column-break-inside: avoid;
+  opacity: 1;
+  transition: all .2s ease;
+  .m-title{
+    border-bottom: 2px solid #E6E9ED;
+    padding: 1px 5px 6px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+    clear: both;
+    h2{
+      margin: 5px 0 6px;
+      float: left;
+      display: block;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+    .panel_toolbox{
+      margin-right: 10px;
+      li{
+        float: left;
+        cursor: pointer;
+        a{
+          padding: 5px;
+        }
+        a:hover{
+          text-decoration: none;
+          background-color: rgba(0,0,0,0.16);
+        }
+      }
+    }
+    .dropdown-menu{
+      li{
+        width: 100%;
+      }
+    }
+  }
+  .m-content{
+    padding: 0 5px 6px;
+    position: relative;
+    width: 100%;
+    float: left;
+    clear: both;
+    margin-top: 5px;
+  }
+}
+.icon{
+  color: gray;
+  font-size: 15px;
+}
+//model 的触发按钮成一行
+.model-inlineBtn{
+  display: inline;
+}
+.solid{
+  border-top: 1px solid #e5e5e5;
+  color: #ffffff;
+  background-color: #ffffff;
+  height: 1px;
+  margin: 20px 0;
+}
+.btn{
+  margin-right: 5px;
+}

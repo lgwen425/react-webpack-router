@@ -1,0 +1,183 @@
+.react-main{
+  width: 100%;
+  height: 138px;
+  overflow: hidden;
+  clear: both;
+  background: url(../../../../images/col_tit.jpg) repeat-x;
+  overflow: hidden;
+}
+.arrow{
+  // background: url(../../../../images/bt_arr.png);
+  width: 18px;
+  height: 12px;
+  margin: 0 auto;
+}
+.title{
+    width: 129px;
+    height: 50px;
+    margin: 44px auto 32px;
+    background-image: url(../../../../images//tit_txt.png);
+    background-repeat: no-repeat;
+}
+.t1{
+    background-position: 0 -134px;
+}
+.t2{
+    background-position: 0 -277px;
+}
+.react-container{
+  .container{
+     margin-bottom: 60px;
+    .hoverDetail{
+      transform: translateY(0%);
+      background: rgba(0, 0, 0, 0.5);
+      text-align: center;
+      color: white;
+      opacity: 0;
+      position: absolute;
+      left: 0;
+      // bottom: 10%;
+      width:100%;
+      line-height: 1;
+      font-size: 20px;
+      font-weight: bold;
+      transition: transform 0.35s linear,opacity 0.35s linear;
+      margin: 0;
+      padding: 10px;
+    }
+    .imageContainer{
+      border: 1px solid rgba(0,0,0,0.18);
+      margin-bottom: 10px;
+    }
+    .gameDetail{
+      text-indent: 1.5em;
+      line-height: 1;
+      font-size: 18px;
+      padding: 9px;
+      margin: 0;
+    }
+    .imagefigure{
+      img{
+        width: 100%;
+      }
+    }
+    .bb{
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+    }
+    img{width: 100%;}
+    .bb:hover{
+      .hoverDetail{
+        opacity: 1;
+        transform: translateY(-100%);
+        transition: transform 0.35s linear,opacity 0.35s linear;
+      }
+    }
+  }
+}
+.responsive{
+  padding: 2px;
+  border: 1px solid #ddd;
+  .thumbnailContainer{
+    position: relative;
+    overflow: hidden;
+    img{
+
+    }
+    .hover-bootstrap{
+      position: absolute;
+    left: 0;
+    width: 100%;
+    /* bottom: 0; */
+    transform: translateY(0%);
+    margin: 0;
+    transition: transform 0.35s linear;
+    text-align: center;
+    background: rgba(0,0,0,0.32);
+    color: white;
+    }
+  }
+  .thumbnailContainer:hover{
+
+    .hover-bootstrap{
+      position: absolute;
+      /* bottom: 0; */
+      transform: translateY(-100%);
+    }
+  }
+}
+.ex{
+  .row{
+    p:first-child{
+      font-family: sans-serif;
+      height: auto;
+    }
+    p:nth-child(2){
+      font-family: serif;
+    }
+    p:nth-child(3){
+      font-family: monospace;
+    }
+    p:nth-child(4){
+      height: auto;
+      font-family: cursive;
+      p{
+        height: auto;
+      }
+    }
+    .auto{
+      height: auto;
+      p{
+        height: 50%;
+      }
+    }
+    .one{
+      p{display: block;width: 6em;text-align: center;
+        border: 1px solid;
+      }
+    }
+    .two{
+      p{
+        display: inline;
+        width: 6em;
+        text-align: center;
+        border: 1px solid;
+        float: right;
+      }
+
+    }
+    .three{
+      p{
+        display: inline-block;width: 6em;text-align: center;border: 1px solid;
+      }
+    }
+    .run-in{display: run-in;border: 1px dotted;font-size: 125%;font-weight: bold;}
+    .positoin{
+      position: relative;width: 10em;height: 10em;border: 1px solid;
+      div{
+        position: absolute;left: 0 ;width: 100%;background: #ccc;
+        top:0;
+        height: 5em;
+        bottom: 0;
+        margin: auto 0;
+      }
+    }
+    .positoin:before{
+      content: "New Section";
+      display: block;
+      color: gray;
+      border-bottom: 1px dotted black;
+      margin-bottom: 0.5em;
+    }
+  }
+}
+@media (min-width: 768px){
+  .container .row .sm-padding{
+       padding-left: 0;
+       padding-right: 0;
+   }
+  .react-container .row .imageContainer{
+    margin-bottom: 0;
+  }
+}

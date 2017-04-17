@@ -1,0 +1,11 @@
+{
+  "bar":{
+    "tiltle":{"subtitle":"bar subtitle","title":"bar"},
+    "tooltip":{"trigger": "item","formatter": "{a} <br/>{b} : {c} ({d}%)"},
+    
+  },
+  "pie":{
+    "tiltle":{"subtitle":"bar subtitle","title":"bar"},
+    "tooltip":{"trigger": "axis","formatter": ""}
+  }
+}
